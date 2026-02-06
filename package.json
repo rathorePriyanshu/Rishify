@@ -1,18 +1,11 @@
 {
   "name": "rishify",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx parcel build index.html"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  },
-  "dependencies": {
     "parcel": "^2.13.0"
   }
 }
